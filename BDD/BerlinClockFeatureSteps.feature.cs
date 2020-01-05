@@ -49,7 +49,7 @@ namespace BerlinClock.BDD
             if (((TechTalk.SpecFlow.FeatureContext.Current != null) 
                         && (TechTalk.SpecFlow.FeatureContext.Current.FeatureInfo.Title != "The Berlin Clock")))
             {
-                BerlinClock.BDD.TheBerlinClockFeature.FeatureSetup(null);
+                TheBerlinClockFeature.FeatureSetup(null);
             }
         }
         
